@@ -264,7 +264,7 @@
                    factory.close();
 
                    System.out.println("Conclusion");
-                   
+
  ==] Hibernate Annotation:
    --> @Entity - use to mark any class as Entity.
 
@@ -284,19 +284,19 @@
 
    --> @Lob-@Lob tells Hibernate that this is a large object, not a simple object.
       -> @OneToOne, @OneToMany, @ManyToOne, @ManyToMany @Join Column etc.
-      
-   --> @JoinColumn - It is used to merge the column in database.   
-      
+
+   --> @JoinColumn - It is used to merge the column in database.
+
  ==] FETCH DATA:-
    --> get():
      -> get method of Hibernate Session returns null if object is not found in cache as well as on database.
      -> Use if you are not sure that object exists in DB or not.
-     
+
    --> load():
-     -> load method throws ObjectNotFoundException if object is not found on cache as well as on database 
-         but never return null.  
-     -> Use if you are  sure that Object exists.    
- 
+     -> load method throws ObjectNotFoundException if object is not found on cache as well as on database
+         but never return null.
+     -> Use if you are  sure that Object exists.
+
 
  ==] MAPPING:-
   --> The mapping is one of the key feature in Hibernate is used to established connection between two table.
